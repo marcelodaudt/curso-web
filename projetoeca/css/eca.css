@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'OpenSans';
+	src: url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'OpenSans-Light';
+	src: url("../fonts/Open_Sans/OpenSans-Light.ttf");
+	font-size: 1em;
+}
+header	{
+	width: 100%;
+	height: 90px;
+	position: relative;
+}
+header .container {
+	position: relative;
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+header .fundologo {
+	width: 305px;
+	height: 105px;
+	background-color: #006699;
+	position: absolute;
+	z-index: 2;
+}
+header #logotipo {
+	position: absolute;
+	top: 30px;
+	left: 45px;
+	width: 205px;
+}
+header #logousp {
+	height: 19px;
+}
+
+#menu1 {
+	margin: 5px 0px;
+}
+#menu1 li {
+	display: inline-block;
+	font-family: "OpenSans";
+	text-transform: uppercase;
+}
+#menu1 li a {
+	color: #99CC00;
+	font-size: 11px;
+	padding: 15px;
+	font-weight: bold;
+}
+#menu1 li.search {
+	width: 200px;
+}
+#menu1 li.search input {
+	color: #FFF;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+}
+#menu1 li.search ::-webkit-input-placeholder {
+	color: #000;
+}
+#menu1 li.search button {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+}
+#menu1 li.search button i {
+	font-size: 16px;
+}
+#menu1 li.search .input-group {
+	top: 8px;
+}
+
+#menu2 {
+	margin: 0px 0px;
+}
+#menu2 li {
+	display: inline-block;
+	font-family: "OpenSans";
+	text-transform: uppercase;
+	text-align: center;
+}
+#menu2 li a {
+	font-size: 12px;
+	font-weight: bold;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #FFF;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+.topnav a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+
+#banner {
+	height: 445px;
+	top: -16px;
+	position: relative;
+	background: url("../img/fotos_cac.jpg") no-repeat;
+	background-position: 0px 0px;
+	background-size: 100%;
+}
+#banner h1 {
+	font-family: 'OpenSans-Light';
+	color: #FFF;
+	font-size: 25px;
+	font-weight: bold;
+	top: 345px;
+	position: relative;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .45);
+	margin-left: 260px;
+}
+#banner h1 small {
+	font-family: 'OpenSans-Light';
+	color: #FFF;
+	font-size: 15px;
+	display: block;
+	padding-top: 10px;
+}
+
+#news {
+	position: relative;
+	width: 80%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #006699;
+	top: 0px;
+}
+#news h2 {
+	color: #000;
+	font-family: 'OpenSans';
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 20px;
+}

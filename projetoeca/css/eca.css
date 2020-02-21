@@ -134,11 +134,11 @@ header #logousp {
 
 #news {
 	position: relative;
-	width: 80%;
+	width: 65%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #006699;
-	top: 0px;
+	top: 30px;
 }
 #news h2 {
 	color: #000;
@@ -148,4 +148,130 @@ header #logousp {
 	text-transform: uppercase;
 	text-align: right;
 	margin-right: 20px;
+}
+#news .mainimg {
+	width: 600px;
+	margin-left: 16px;
+	margin-bottom: 60px;
+}
+#news .thumbnails img {
+	width: 280px;
+}
+#news a {
+	color: #99CC00;
+	font-size: 11px;
+	padding: 15px;
+	font-weight: bold;
+}
+#news .btn {
+	min-width: 90px;
+	height: 45px;
+	line-height: 35px;
+	border-radius: 0;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+#news .btn-roxo {
+	color: #FFF;
+	background-color: #1d1e1c;
+	border-color: #1d1e1c;
+}
+
+#boletim {
+	position: relative;
+	width: 65%;
+	background-color: #006699;
+	background-image: linear-gradient(-90deg, #006699, #8fbc24);
+	top: 50px;
+	height: 135px;
+}
+#boletim h2 {
+	color: #FFF;
+	font-family: 'OpenSans';
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 40px;
+}
+#boletim h2 small {
+	font-family: 'OpenSans-Light';
+	color: #FFF;
+	font-size: 10px;
+}
+
+#boletim .input-group {
+	float: right;
+	padding-right: 15px;
+	bottom: 6px;
+}
+#boletim input {
+	width: 550px;
+}
+#boletim .btn {
+	min-width: 90px;
+	height: 30px;
+	line-height: 17px;
+	border-radius: 0;
+}
+#boletim .btn-roxo {
+	color: #FFF;
+	background-color: #1d1e1c;
+	border-color: #1d1e1c;
+}
+#boletim .list-socials {
+	margin-top: 5px;
+}
+#boletim .list-socials li {
+	display: inline-block;
+	margin-right: 8px;
+}
+#boletim .list-socials a {
+	display: block;
+	width: 50px;
+	text-align: center;
+}
+#boletim .list-socials i {
+	font-size: 35px;
+	margin: 7px auto;
+	color: #fff;
+}
+
+#agenda {
+	position: relative;
+	width: 65%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #006699;
+	top: 100px;
+	height: 140px;
+}
+#agenda h2 {
+	color: #000;
+	font-family: 'OpenSans';
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	margin-right: 20px;
+}
+
+footer {
+	margin-top: 200px;
+	background-color: #333;
+	font-family: 'OpenSans';
+	color: #FFF;
+}
+footer .row {
+	width: 100%;
+}
+footer .row-one {
+	height: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+footer .row-two {
+	height: 60px;
+	font-size: 10px;
 }

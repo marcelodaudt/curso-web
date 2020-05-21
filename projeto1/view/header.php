@@ -85,8 +85,8 @@
 				
 				<nav id="menu" class="pull-right">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="videos.html">Vídeos</a></li>
+						<li><a href="/">Home</a></li>
+						<li><a href="videos">Vídeos</a></li>
 						<li><a href="#">Tickets</a></li>
 						<li><a href="#">News</a></li>
 						<li><a href="#">Schedule</a></li>

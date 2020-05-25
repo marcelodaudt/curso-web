@@ -9,7 +9,11 @@
   "demos"        : ["demo.html"],
 
   "dependencies" : {
+<<<<<<< HEAD
     "jquery": ">=3.5.0"
+=======
+    "jquery": "3"
+>>>>>>> 0e913c71d01408276e197a963f06dab1a087bf23
   },
 
   "description": "jQuery Raty - A Star Rating Plugin",

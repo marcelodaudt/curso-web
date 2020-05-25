@@ -186,7 +186,7 @@
 					
 						<img src="img/produtos/panelas.png" alt="Panelas" class="produto-img">
 						<h3>Conjunto de Panelas Tramontina Versalhes Alumínio Antiaderente 5</h3>
-						<div class="estrelas" data-score="5"></div>
+						<div class="estrelas" data-score="4"></div>
 						<div class="text-qtd-reviews text-arial-cinza">(300)</div>
 						<div class="text-valor text-roxo">R$ 109,90</div>
 						<div class="text-parcelado text-arial-cinza">10x de R$ 10,99 sem juros</div>

@@ -1,6 +1,8 @@
 describe('#scoreName', function() {
   beforeEach(function() {
     $.fn.raty.defaults.path = '../lib/images';
+
+    this.el = Helper.create('#el');
   });
 
   afterEach(function() {
@@ -9,7 +11,6 @@ describe('#scoreName', function() {
 
   it ('changes the score field name', function() {
     // given
-    this.el = Helper.create('#el');
 
     // when
     this.el.raty({ scoreName: 'double' });
@@ -20,7 +21,6 @@ describe('#scoreName', function() {
 
   it ('accepts callback', function() {
     // given
-    this.el = Helper.create('#el');
 
     // when
     this.el.raty({ scoreName: function() { return 'double'; } });

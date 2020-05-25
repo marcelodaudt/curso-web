@@ -1,27 +1,14 @@
 # jQuery Raty - A Star Rating Plugin - http://wbotelhos.com/raty
 
-## 2.9.0
-
-### Changes
-
-+ Drops `engines` from `package.json` for a greater flexibility;
-
-## 2.8.0
-
-### News
-
-+ Add support to configure options via `$.data()`;
-
-## 2.7.1
+## The Winter is coming...
 
 ### Fixes
 
-+ Fix `readOnly` when using fonts; (Amaia Baigorri)
+### Changes
 
 ### News
 
 + Added Bower package; (yadhu)
-+ Added `path` options as callback; (tyler-king)
 
 ## 2.7.0
 
